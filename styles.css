@@ -1,0 +1,119 @@
+*{box-sizing:border-box;}
+body{
+   margin:0px;
+   font-family: 'Outfit', sans-serif;
+   background-color: hsl(217, 54%, 11%);
+   font-size:18px;
+
+}
+
+.cardnft{
+    width: 16.5em;
+    height: 27em;
+    margin: 6.5em auto;
+    padding:1em;
+    border-radius: 0.7em;
+    background-color: hsl(216, 50%, 16%);
+}
+
+/* 
+Internal styles  for the main image*/
+.cardnft__image{
+    width: 100%;
+    height: 55%;
+    border-radius: 0.35rem;
+    background-image: url("images/image-equilibrium.jpg");
+    background-size: 100%;
+}
+.cardnft__view{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 247, 0.507);
+    border-radius:0.35em;
+    visibility: hidden;
+    cursor:pointer;
+    text-align: center;
+    padding-top:6em
+}
+.cardnft__image:hover  .cardnft__view{
+    visibility: visible;
+}
+/*  */
+.cardnft__title{
+    color:hsl(0, 0%, 100%);
+    margin: 0.6em 0;
+    font-weight: 600;
+}
+
+.cardnft__title:hover{
+    cursor:pointer;
+    color:hsl(178, 100%, 50%);
+}
+.cardnft__text{
+    color:hsl(215, 51%, 70%);
+    font-size:0.8em;
+    font-weight:300;
+    margin: 1rem 0;
+}
+article{font-size:0.7em}
+.cardnft__eth-amount{
+    width: 49%;
+    display: inline-block;
+}
+.cardnft__eth-amount p{
+    display:inline-block;
+    padding-left:5px;
+    color:hsl(178, 100%, 50%);
+}
+.cardnft__time-submit{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+.cardnft__time-submit p{
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+}
+.cardnft__time-submit p,
+.cardnft__eth-amount p{
+    position: relative;
+    bottom:5px;
+}
+
+.separate-line{
+    margin: 0 auto 10px;
+    height: 0.05rem;
+    width: 93%;
+    
+    background-color:hsl(215, 32%, 27%);
+}
+.cardnft__footer img{
+    width: 2.3em;
+    border: 0.1em solid hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.cardnft__footer p{
+    display: inline-block;
+    font-size:0.75em;
+    color:hsl(215, 51%, 70%);
+    position:relative;
+    bottom:18px;
+    left: 9px;
+}
+.name-user{
+    text-decoration: none;
+    color:hsl(215, 51%, 70%);
+}
+.name-user:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+
+
+
+
+
+
+.attribution {
+     font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } 
