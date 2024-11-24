@@ -3,5 +3,5 @@ This is a solution from FrontendMentor where I practice some basic HTML and CSS 
 
 You can see it here 👉 [MySolution](https://dalpb.github.io/NFT-card-component-solution/)
 
-## How it looks?
+## what does it look like?
 ![imagen](https://github.com/user-attachments/assets/6522c297-c79f-4c21-b873-37764ad5a8fd)
